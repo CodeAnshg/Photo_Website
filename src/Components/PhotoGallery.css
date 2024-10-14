@@ -1,0 +1,64 @@
+.gallery-section {
+    text-align: center;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.gallery-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #5a2d82;
+}
+  
+.gallery-section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    display: inline;
+    justify-content: center;
+    color: black;
+}
+  
+.card-container {
+    margin-top: 8opx;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap; 
+    overflow-x: auto;
+}
+  
+.card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 0 0 calc(33.33% - 20px);
+    box-sizing: border-box;
+    transition: box-shadow 0.3s ease;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+  
+.card-image {
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+
+  
+.card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.card p {
+    font-size: 1rem;
+}
+
+

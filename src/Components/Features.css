@@ -1,0 +1,61 @@
+.feature-section {
+    padding: 40px;
+    text-align: center; 
+}
+
+.feature-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    flex: 1 1 calc(50% - 20px);
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    transition: box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.feature-card p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    flex-grow: 1; 
+    text-align: left; 
+}
+
+.learn-more-button {
+    width: 200px; 
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: auto;
+    margin-left: 0;
+}
+
+.learn-more-button:hover {
+    background-color: #0056b3;
+}
+
+

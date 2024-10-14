@@ -1,0 +1,138 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid purple;
+  border-bottom: 3px solid cyan;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  z-index: 1000; 
+  
+}
+
+.logo img {
+  height: 50px;
+  display: block;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  border-bottom: 2px solid pink;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.login-btn,
+.register-btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: white;
+  color: blue;
+  border: 2px solid cyan;
+}
+
+.register-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.login-btn:hover,
+.register-btn:hover {
+  opacity: 0.9;
+}
+
+.hamburger {
+  display: none; 
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.line {
+  height: 4px;
+  width: 25px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+.close-icon {
+  font-size: 24px;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .header {
+      justify-content: space-between;
+      padding: 10px;
+  }
+
+  .nav-links {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+      display: none; 
+      width: 100%;
+  }
+
+  .nav-links.open {
+      display: flex; 
+      position: fixed;
+      top: 0;
+      left: 0; 
+      width: 70%; 
+      height: 100%;
+      background-color: white; 
+      z-index: 500; 
+      padding: 20px; 
+      padding-left: 2px;
+      margin: 0%;
+  }
+  
+  .nav-links a {
+    border-top: 1px solid rgb(56, 56, 59);
+    border-bottom: 1px solid rgb(69, 69, 74);
+    font: bolder;
+  }
+
+  .hamburger {
+      display: flex;
+  }
+
+  .auth-buttons {
+      display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-links a {
+      font-size: 0.9rem;
+      padding: 5px 0;
+  }
+
+  .logo img {
+      height: 40px;
+  }
+}
