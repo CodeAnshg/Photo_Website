@@ -1,8 +1,13 @@
-# React + Vite
+#Photo Website
+Welcome to the Photo Website! This platform is designed to showcase stunning photography and provide users with an engaging visual experience. Whether you're a photography enthusiast or just looking for inspiration, you'll find a variety of beautiful images here.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Stunning Photo Gallery: Browse through a diverse collection of high-quality images from various genres.
+User-Friendly Navigation: Easily navigate through categories and featured collections.
+Responsive Design: The website is fully responsive, ensuring a seamless experience on desktop, tablet, and mobile devices.
+Smooth Animations: Enjoy smooth transitions and animations for a more engaging experience.
+Technologies Used
+HTML: For structuring the website content.
+CSS: For styling the website, including layout, colors, and animations.
+JavaScript/React: For interactive elements, such as the hamburger menu Login Signup.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
